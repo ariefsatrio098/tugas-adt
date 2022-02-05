@@ -12,14 +12,14 @@ void Register(){
     cout << "Masukkan Password: "; cin >> mail.pass;
 
     listAdd(mail); /*menjalankan fungsi listData untuk memasukkan data yang barusan di buat ke dalam list(array) ke 1 atau ke 2 sampai seterusnya 
-                    misal : | email ke - 1 | email ke - 2 | email ke - 3| <- ini array list*/
+                    misal : | email ke - 1 | email ke - 2 | email ke - 3| <- ini list(array)*/
 }
 //fungsi untuk print out(menampilkan) hasil dari data yang dimasukkan
 void displayData(email mail, int i){
-   cout << endl;
-   cout << i + 1 << ".)" << endl;
-   cout << "Email: " << mail.email << endl;
-   cout << "Pass: " << mail.pass << endl;
+    cout << endl;
+    cout << i + 1 << ".)" << endl;
+    cout << "Email: " << mail.email << endl;
+    cout << "Pass: " << mail.pass << endl;
 }
 
 //fungsi untuk memilih tipe data email di dalam array berdasarkan alamat dimemory
@@ -34,7 +34,7 @@ void semuaData(){
     email mail;
     int i;
 
-    for (i = 0 ; i < d ; i++){ 
+    for (i = 0 ; i < d ; i++){ //looping yang dijalankan jika variabel d(jumlah list) lebih dari variabel i
         select(mail, i);
         displayData(mail, i);
     }
@@ -47,11 +47,11 @@ void listAdd(email mail){
 
 //fungsi untuk menampilkan menu untuk memudahkan user menggunakannya
 void mainMenu(){
-   cout << endl;
-   cout << "#########################\n";
-   cout << "   1.) Register\n";
-   cout << "   2.) Tampilkan Data\n";
-   cout << "   3.) Keluar\n";
-   cout << "#########################\n";
-   cout << "Masukkan pilihan: ";
+    cout << endl;
+    cout << "#########################\n";
+    cout << "   1.) Register\n";
+    cout << "   2.) Tampilkan Data\n";
+    cout << "   3.) Keluar\n";
+    cout << "#########################\n";
+    cout << "Masukkan pilihan: ";
 }
