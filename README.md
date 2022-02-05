@@ -1,5 +1,6 @@
 # tugas-adt
-nama : Arief Satrio Budi Prasojo\n
-npm : G1A021076
+Nama : Arief Satrio Budi Prasojo
 
-dalam code ini kasusnya adalah untuk menyimpan email dan password, dan penjelasan baris perbaris dari code ada di dalam codenya
+NPM : G1A021076
+
+dalam code ini kasusnya adalah untuk menyimpan email beserta passwordnya, dan penjelasan baris perbaris dari code ada di dalam codenya
