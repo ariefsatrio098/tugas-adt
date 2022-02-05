@@ -8,7 +8,7 @@ typedef struct{
 
 } email;
 
-// variabel untuk awal
+// variabel untuk perhitungan besar/panjang dari variabel list dibawah
 int d = 0;
 
 //membuat array yang bernama list (max 10 element) dengan tipe data email 
