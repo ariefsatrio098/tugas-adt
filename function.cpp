@@ -11,7 +11,8 @@ void Register(){
     cout << "Masukkan alamat Email: "; cin >> mail.email;
     cout << "Masukkan Password: "; cin >> mail.pass;
 
-    listAdd(mail); //menjalankan fungsi di kiri untuk memasukkan data ke dalam variabel list(array) yang isinya tipe data email
+    listAdd(mail); /*menjalankan fungsi listData untuk memasukkan data yang barusan di buat ke dalam list(array) ke 1 atau ke 2 sampai seterusnya 
+                    misal : | email ke - 1 | email ke - 2 | email ke - 3| <- ini array list*/
 }
 //fungsi untuk print out(menampilkan) hasil dari data yang dimasukkan
 void displayData(email mail, int i){
